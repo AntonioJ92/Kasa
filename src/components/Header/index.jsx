@@ -13,7 +13,7 @@ function Header() {
         <NavLink className="header-nav-link" to="/">
           Accueil
         </NavLink>
-        <NavLink className="header-nav-link" to="/propos">
+        <NavLink className="header-nav-link" to="/Kasa/propos">
           A Propos
         </NavLink>
       </nav>

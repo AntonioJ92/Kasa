@@ -12,7 +12,7 @@ function Home() {
       <Banner picture={BannerHome} text="Chez vous, partout et ailleurs" />
       <div className="logements-bloc">
         {Data.map((logement) => (
-          <NavLink key={logement.id} to={"/fiche-logement/" + logement.id}>
+          <NavLink key={logement.id} to={"/Kasa/fiche-logement/" + logement.id}>
             <Card
               key={logement.id}
               id={logement.id}

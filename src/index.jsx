@@ -1,6 +1,11 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom"
 import { FontFamily } from "./utils/style/FontFamily"
 import Home from "./pages/Home/index"
 import Propos from "./pages/Propos/index"
@@ -16,9 +21,10 @@ root.render(
       <FontFamily />
       <Header />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/propos" element={<Propos />} />
-        <Route path="/fiche-logement/:key" element={<FicheLogement />} />
+        <Route path="/" element={<Navigate replace to="/Kasa" />} />
+        <Route exact path="/Kasa" element={<Home />} />
+        <Route path="/Kasa/propos" element={<Propos />} />
+        <Route path="/Kasa/fiche-logement/:key" element={<FicheLogement />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
