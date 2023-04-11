@@ -1,0 +1,69 @@
+.logements-bloc {
+  background-color: #f6f6f6;
+  border-radius: 1.5vw;
+  margin: auto;
+  margin-top: 2.988vw;
+  width: 86.171vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4.2vw;
+  padding-top: 3.9vw;
+  padding-bottom: 3.9vw;
+}
+
+@media screen and (max-width: 375px) {
+  /*--------------Bannière--------------*/
+  .home-bloc .banner {
+    height: 29.6vw;
+    width: 89.333vw;
+    border-radius: 2.667vw;
+    overflow: hidden;
+  }
+
+  .home-bloc .banner-cover {
+    border-radius: 2.667vw;
+    transform: scale(1.85);
+  }
+
+  .home-bloc .banner-filter {
+    border-radius: 2.667vw;
+  }
+
+  .home-bloc .banner-text {
+    font-size: 6.4vw;
+    text-align: left;
+    width: 57.867vw;
+    left: 38%;
+    line-height: 1em;
+  }
+
+  /*--------------Liste de logements--------------*/
+  .logements-bloc {
+    background-color: unset;
+  }
+
+  .logements-bloc a {
+    border-radius: 2.667vw;
+  }
+
+  .card {
+    width: 89.333vw;
+    height: 68vw;
+    border-radius: 2.667vw;
+    overflow: hidden;
+  }
+
+  .card-filter {
+    width: 89.333vw;
+    border-radius: 2.667vw;
+    overflow: hidden;
+  }
+
+  .card-title {
+    font-size: 4.8vw;
+    margin-bottom: 4vw;
+    padding-left: 5.333vw;
+    padding-right: 5.333vw;
+  }
+}

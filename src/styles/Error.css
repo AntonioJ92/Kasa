@@ -1,0 +1,50 @@
+.ErrorWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ff6060;
+  margin-top: 11.458vw;
+  margin-bottom: 11.042vw;
+}
+
+.Error404 {
+  font-size: 20vw;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 4.583vw;
+}
+
+.ErrorOups {
+  font-size: 2.5vw;
+  margin-bottom: 12.639vw;
+}
+
+.BackToHome {
+  font-size: 1.25vw;
+  text-decoration: underline;
+  color: #ff6060;
+}
+
+@media screen and (max-width: 375px) {
+  .ErrorWrapper {
+    margin-top: 48vw;
+  }
+
+  .Error404 {
+    font-size: 25.6vw;
+    margin-bottom: 2.933vw;
+  }
+
+  .ErrorOups {
+    width: 69.333vw;
+    text-align: center;
+    font-size: 4.8vw;
+    margin-top: 0;
+    margin-bottom: 35.467vw;
+  }
+
+  .BackToHome {
+    font-size: 3.733vw;
+  }
+}

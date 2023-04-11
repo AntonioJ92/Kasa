@@ -1,0 +1,37 @@
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.292vw;
+  height: 14.514vw;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.footer-logo {
+  width: 8.472vw;
+}
+
+.footer-text {
+  color: white;
+  font-size: 1.67vw;
+}
+
+@media screen and (max-width: 375px) {
+  footer {
+    height: 55.733vw;
+    gap: 3.2vw;
+  }
+
+  .footer-logo {
+    width: 32.533vw;
+  }
+
+  .footer-text {
+    font-size: 3.2vw;
+  }
+}

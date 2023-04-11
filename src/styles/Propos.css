@@ -1,0 +1,60 @@
+.collapse-propos {
+  width: 71.091vw;
+  margin: auto;
+  font-size: 1.668vw;
+  margin-top: 2.154vw;
+}
+
+@media screen and (max-width: 375px) {
+  /*--------------Bannière--------------*/
+  .propos-bloc .banner {
+    height: 59.467vw;
+    width: 89.333vw;
+    border-radius: 2.667vw;
+    overflow: hidden;
+  }
+
+  .propos-bloc .banner-cover {
+    border-radius: 2.667vw;
+    transform: scale(1.15);
+  }
+
+  /*--------------Collapses--------------*/
+  .propos-bloc .collapse-propos {
+    width: 89.333vw;
+    margin-top: 5.333vw;
+  }
+
+  .propos-bloc .collapse {
+    margin-bottom: 5.333vw;
+  }
+
+  .propos-bloc .header-collapse {
+    height: 8vw;
+    font-size: 3.467vw;
+    border-radius: 1.333vw;
+  }
+
+  .propos-bloc .title-collapse {
+    margin-left: 2.667vw;
+  }
+
+  .propos-bloc .arrow-collapse {
+    margin-right: 2.667vw;
+  }
+
+  .propos-bloc .arrow-collapse img {
+    width: 4.267vw;
+  }
+
+  .propos-bloc .description-collapse {
+    font-size: 3.2vw;
+    border-radius: 1.333vw;
+    height: 38.667vw;
+    padding-top: 6.4vw;
+    padding-left: 3.2vw;
+    padding-right: 1.6vw;
+    line-height: 4.533vw;
+    margin-top: -1.867vw;
+  }
+}

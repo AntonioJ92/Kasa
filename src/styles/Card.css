@@ -1,0 +1,35 @@
+.card {
+  border-radius: 0.694vw;
+  height: 23.611vw;
+  width: 23.611vw;
+  position: relative;
+}
+.card:hover {
+  cursor: pointer;
+}
+
+.card-picture {
+  border-radius: 0.694vw;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-filter {
+  background: linear-gradient(180deg, #ffffff00 0%, #00000080 100%);
+  border-radius: 0.694vw;
+  height: 75%;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  width: 23.611vw;
+}
+
+.card-title {
+  bottom: 1.389vw;
+  color: #ffffff;
+  font-size: 1.25vw;
+  left: 1.389vw;
+  margin-right: 1.389vw;
+  position: absolute;
+}
